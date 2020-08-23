@@ -2,17 +2,18 @@
 
 > 
 
-## Build Setup
+## 命令
 
-``` bash
-# install dependencies
-npm install
+``` 
+# vue init webpack-simple projectname
+#npm install  像maven一样下载
+# npm run dev  运行项目
+#按 ctrl + c 退出
 
-# serve with hot reload at localhost:8080
-npm run dev
+理解：1，初始化时注意使用 vue 命令，前提要已经安装了 nodejs 和 npm install 了 webpack 和 vue-cli
+   2，初始化完成项目后所有的 npm 操作都是在项目目录里进行
+   3，Webpack 类似于 Maven，package.json 类似于 pom.xml
 
-# build for production with minification
-npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
